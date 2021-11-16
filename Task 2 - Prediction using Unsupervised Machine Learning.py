@@ -25,14 +25,8 @@ iris_df=pd.DataFrame(iris.data, columns=iris.feature_names)
 iris_df.head()
 
 
-# In[2]:
 
-
-#Finding the optimum number of clusters for k-means classification
-x=iris_df.iloc[:,[0,1,2,3]].values
-
-
-# In[4]:
+# In[3]:
 
 
 #Finding the optimum number of clusters for k-means classification
